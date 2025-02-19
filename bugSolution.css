@@ -1,0 +1,11 @@
+/* Correct usage of calc() with spaces around operators */
+#myElement {
+  width: calc(100% - 10px);
+  height: calc(50vh + 20px);
+}
+
+/* Incorrect usage of calc() without spaces */
+/* #myElement {
+  width: calc(100%-10px); /* This will likely fail */
+  height: calc(50vh+20px); /* This will likely fail */
+} */
